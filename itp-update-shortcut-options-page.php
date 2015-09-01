@@ -1,7 +1,7 @@
 <?php ?>
 
 <div class="wrap">
-    <h2>ITP</h2>
+    <h2>Post Editor Keyboard Shortcuts</h2>
     <form action="options.php" method="post">
         <?php settings_fields( 'itp' ); ?>
         <?php do_settings_sections( 'itp' ); ?>
