@@ -8,12 +8,12 @@ Author URI:   http://pressupinc.com
 
 function itp_return_bindings() {
     $bindings = array(
-        'Save' => array( 'name' => 'save', 'binding' => 'ctrl+s' ),
-        'Publish' => array( 'name' => 'publish', 'binding' => 'ctrl+g' ),
+        'Save Draft' => array( 'name' => 'save', 'binding' => 'ctrl+s' ),
+        'Publish or Update' => array( 'name' => 'publish', 'binding' => 'ctrl+g' ),
         'Preview' => array( 'name' => 'preview', 'binding' => 'ctrl+p' ),
-        'Visual' => array( 'name' => 'visual', 'binding' => 'ctrl+h' ),
-        'Text' => array( 'name' => 'text', 'binding' => 'ctrl+j' ),
-        'New' => array( 'name' => 'new', 'binding' => 'ctrl+m' ),
+        'Toggle Visual Editor' => array( 'name' => 'visual', 'binding' => 'ctrl+h' ),
+        'Toggle Text Editor' => array( 'name' => 'text', 'binding' => 'ctrl+j' ),
+        'Add New' => array( 'name' => 'new', 'binding' => 'ctrl+m' ),
     );
 
     return $bindings;
