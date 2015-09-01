@@ -90,9 +90,9 @@ function itp_get_scripts() {
     $bindingsArray = itp_return_bindings();
 
     $bindingsToPass = array();
-    foreach( $bindingsArray as $name => $data ) {
-        $bindingName = $prefix . '_' . $data['name']; 
-        $binding = get_option( $bindingName );
+    foreach( $bindingsArray as $bindingName => $bindingData ) {
+        $optionName = $prefix . '_' . $bindingData['name']; 
+        $binding = get_option( $optionName );
         $bindingsToPass[] = $binding;
     }
 
